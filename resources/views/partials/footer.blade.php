@@ -15,6 +15,7 @@
           <span class="sr-only"> {{ get_bloginfo('name') }} </span>
         </a>
         <div class="more-informtion">
+          <p>Nulla do mollit velit non duis consequat incididunt Lorem est consequat adipisicing magna pariatur voluptate.</p>
         </div>
       </div>
     </div>
@@ -175,25 +176,31 @@
 .social-btns .list-inline-item {
   margin: 0 !important;
 }
+
 footer .navbar-footer .navbar .menu-item-has-children {
-    width: 22%;
+  width: 22%;
 }
 
 ul.copyright {
-    white-space: nowrap;
-    margin: 0;
+  white-space: nowrap;
+  margin: 0;
 }
 
 ul.copyright li {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 ul.copyright a {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.04px;
-    color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04px;
+  color: #FFFFFF;
+}
+
+.more-informtion p {
+  max-width: 80%;
+  color: #fff;
 }
 </style>
 
