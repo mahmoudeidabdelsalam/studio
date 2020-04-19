@@ -291,12 +291,8 @@ div#ServciesTabs .media {
   margin-bottom: 20px;
 }
 
-section#clients {
-  min-height: 600px;
-}
-
 div#carouselExampleControls {
-  margin-top: 380px;
+  margin-top: 80px;
 }
 
 .carousel-item * {
@@ -394,4 +390,23 @@ section#ready {
 .multi-steps li strong {
   margin: 15px 0;
   display: inline-block;
+}
+
+ul.customButtons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  li {
+    button {
+      border: none;
+      background: rgb(30, 109, 251);
+      border-radius: 2px;
+      width: 32px;
+      height: 31px;
+      color: rgb(255, 255, 255);
+    }
+  }
 }

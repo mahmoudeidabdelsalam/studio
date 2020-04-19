@@ -31952,24 +31952,18 @@ div#ServciesTabs .media {
 
 /* line 294, resources/assets/styles/layouts/_pages.scss */
 
-section#clients {
-  min-height: 600px;
+div#carouselExampleControls {
+  margin-top: 80px;
 }
 
 /* line 298, resources/assets/styles/layouts/_pages.scss */
-
-div#carouselExampleControls {
-  margin-top: 380px;
-}
-
-/* line 302, resources/assets/styles/layouts/_pages.scss */
 
 .carousel-item * {
   z-index: 4;
   position: relative;
 }
 
-/* line 307, resources/assets/styles/layouts/_pages.scss */
+/* line 303, resources/assets/styles/layouts/_pages.scss */
 
 .carousel-item .item-custom {
   padding: 15px 100px;
@@ -31981,7 +31975,7 @@ div#carouselExampleControls {
   margin-top: 50px;
 }
 
-/* line 317, resources/assets/styles/layouts/_pages.scss */
+/* line 313, resources/assets/styles/layouts/_pages.scss */
 
 .carousel-item .item-custom::after,
 .carousel-item .item-custom::before {
@@ -31997,7 +31991,7 @@ div#carouselExampleControls {
   right: 0;
 }
 
-/* line 331, resources/assets/styles/layouts/_pages.scss */
+/* line 327, resources/assets/styles/layouts/_pages.scss */
 
 .carousel-item .item-custom::after {
   z-index: 1;
@@ -32007,13 +32001,13 @@ div#carouselExampleControls {
   border-radius: 30px 10px 10px 10px;
 }
 
-/* line 339, resources/assets/styles/layouts/_pages.scss */
+/* line 335, resources/assets/styles/layouts/_pages.scss */
 
 .carousel-item img {
   top: -50px;
 }
 
-/* line 343, resources/assets/styles/layouts/_pages.scss */
+/* line 339, resources/assets/styles/layouts/_pages.scss */
 
 section#ready {
   border-radius: 20px;
@@ -32021,7 +32015,7 @@ section#ready {
   margin-bottom: 30px;
 }
 
-/* line 349, resources/assets/styles/layouts/_pages.scss */
+/* line 345, resources/assets/styles/layouts/_pages.scss */
 
 .multi-steps {
   display: table;
@@ -32029,7 +32023,7 @@ section#ready {
   width: 100%;
 }
 
-/* line 355, resources/assets/styles/layouts/_pages.scss */
+/* line 351, resources/assets/styles/layouts/_pages.scss */
 
 .multi-steps li.step {
   counter-increment: stepNum;
@@ -32040,7 +32034,7 @@ section#ready {
   font-weight: normal;
 }
 
-/* line 364, resources/assets/styles/layouts/_pages.scss */
+/* line 360, resources/assets/styles/layouts/_pages.scss */
 
 .multi-steps li::before {
   content: counter(stepNum);
@@ -32058,7 +32052,7 @@ section#ready {
   z-index: 2;
 }
 
-/* line 380, resources/assets/styles/layouts/_pages.scss */
+/* line 376, resources/assets/styles/layouts/_pages.scss */
 
 .multi-steps li::after {
   content: "";
@@ -32070,17 +32064,42 @@ section#ready {
   width: 90%;
 }
 
-/* line 390, resources/assets/styles/layouts/_pages.scss */
+/* line 386, resources/assets/styles/layouts/_pages.scss */
 
 .multi-steps li:last-child::after {
   display: none;
 }
 
-/* line 394, resources/assets/styles/layouts/_pages.scss */
+/* line 390, resources/assets/styles/layouts/_pages.scss */
 
 .multi-steps li strong {
   margin: 15px 0;
   display: inline-block;
+}
+
+/* line 395, resources/assets/styles/layouts/_pages.scss */
+
+ul.customButtons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 403, resources/assets/styles/layouts/_pages.scss */
+
+ul.customButtons li button {
+  border: none;
+  background: #1e6dfb;
+  border-radius: 2px;
+  width: 32px;
+  height: 31px;
+  color: white;
 }
 
 /* line 1, resources/assets/styles/layouts/_tinymce.scss */

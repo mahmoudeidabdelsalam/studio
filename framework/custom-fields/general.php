@@ -462,7 +462,23 @@ if( function_exists('acf_add_local_field_group') ):
 					'class' => '',
 					'id' => '',
 				),
-			),
+      ),
+      
+      array(
+        'key' => 'field_5e9b3034qwewq41412412ae775',
+        'label' => 'Link Page request',
+        'name' => 'link_page_request',
+        'type' => 'link',
+        'instructions' => '',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'wrapper' => array(
+          'width' => '33.3333',
+          'class' => '',
+          'id' => '',
+        ),
+        'return_format' => 'array',
+      ),
 			array (
 				'message' => 'You can from here manage the header and footer scripts',
 				'esc_html' => 0,
