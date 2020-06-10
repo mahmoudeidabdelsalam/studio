@@ -15,7 +15,11 @@
           <span class="sr-only"> {{ get_bloginfo('name') }} </span>
         </a>
         <div class="more-informtion">
-          <p>Nulla do mollit velit non duis consequat incididunt Lorem est consequat adipisicing magna pariatur voluptate.</p>
+          @if(get_field('footer_content', 'option'))
+            {{ the_field('footer_content', 'option') }}
+          @else 
+            <p>Nulla do mollit velit non duis consequat incididunt Lorem est consequat adipisicing magna pariatur voluptate.</p>
+          @endif
         </div>
       </div>
     </div>
